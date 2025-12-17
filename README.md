@@ -1,12 +1,12 @@
 # 🍜 Burmese Food Stall CLI Order System
 
-A robust and interactive **Command-Line Interface (CLI)** application written in Python that simulates the ordering process for a Burmese food stall. This system is designed to provide a user-friendly experience that mimics real-world point-of-sale (POS) systems within a terminal environment.
+An interactive **Command-Line Interface (CLI)** application written in Python that simulates the ordering process for a Burmese food stall. This system is designed to provide a user-friendly experience that mimics real-world point-of-sale (POS) systems within a terminal.
 
 #### [Video Demo](https://youtu.be/v0UIG7Fu4cg?si=ynD-tremFAbITot6)
 
 ## 📝 Project Overview
 
-This Python CLI application efficiently handles the complexities of taking food orders, from displaying a clean menu to processing flexible user input and generating an accurate bill. It demonstrates core programming concepts like data structure management, string manipulation for flexible item matching, and professional output formatting. By focusing on a culturally rich menu, the project offers a unique and practical utility application.
+This Python CLI application efficiently handles the complexities of taking food orders, from displaying a clean menu to processing flexible user input and generating an accurate bill. It demonstrates core programming concepts like data structure management, string manipulation for flexible item matching, and output formatting. By focusing on a culturally rich menu, the project offers a unique and practical utility application.
 
 ## ✨ Core Features
 
@@ -25,7 +25,7 @@ To evolve this system into a more feature-rich application, the following extens
 
   * **Customization Options:** Allow users to specify variations (e.g., "Mohinga with extra chili").
   * **Persistent Storage:** Use **CSV or JSON files** to store the menu, allowing the stall owner to easily update prices and items without changing the Python code.
-  * **Receipt Output:** Implement a feature to save the final bill as a text file (`.txt`) or a simple markdown file, simulating a printed receipt.
+  * **Receipt Output:** Implement a feature to save the final bill as a text file (`.txt`), simulating a printed receipt.
   * **Error Reporting:** Provide more specific feedback on invalid input (e.g., suggesting item names when input is ambiguous).
   * **Discount/Tax Logic:** Introduce variables and functions to calculate sales tax or apply promotional discounts before determining the grand total.
 
