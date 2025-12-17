@@ -4,7 +4,7 @@ An interactive **Command-Line Interface (CLI)** application written in Python th
 
 #### [Video Demo](https://youtu.be/v0UIG7Fu4cg?si=ynD-tremFAbITot6)
 
-## 📝 Project Overview
+## Project Overview
 
 This Python CLI application efficiently handles the complexities of taking food orders, from displaying a clean menu to processing flexible user input and generating an accurate bill. It demonstrates core programming concepts like data structure management, string manipulation for flexible item matching, and output formatting. By focusing on a culturally rich menu, the project offers a unique and practical utility application.
 
@@ -19,7 +19,7 @@ This Python CLI application efficiently handles the complexities of taking food 
   * **Order Consolidation:** The application maintains a running order and automatically **updates the quantity** of an existing item instead of creating a new line item, ensuring the final bill is concise and accurate.
   * **Bill Generation:** Produces a professional final bill with clear columns for Item, Quantity, Unit Price, and Total, leveraging the `tabulate` library for alignment.
 
-### 🔮 Future Enhancements
+### Future Enhancements
 
 To evolve this system into a more feature-rich application, the following extensions are planned:
 
