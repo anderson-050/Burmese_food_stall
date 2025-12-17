@@ -42,7 +42,7 @@ Install the required library using pip:
 pip install tabulate
 ```
 
-## 🚀 How to Use
+## How to Use
 
 Run the application from your terminal:
 
