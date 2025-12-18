@@ -11,7 +11,7 @@ This Python CLI application efficiently handles the complexities of taking food 
 ## Features
 
   * **Interactive Menu Display:** The system utilizes the **`tabulate`** library to transform raw menu data into a neat, easily readable tabular format directly in the terminal.
-  * **Flexible Item Matching (The Brain of the System) 🧠:** This critical feature allows the system to anticipate variations in user input. It performs **case-insensitive** matching against the:
+  * **Flexible Item Matching (The Brain of the System):** This critical feature allows the system to anticipate variations in user input. It performs **case-insensitive** matching against the:
       * Full Item Name (e.g., "Laphet Thoke (Tea Leaf Salad)")
       * Main Item Name (e.g., "Laphet Thoke")
       * Parenthesis Content/Description (e.g., "Tea Leaf Salad")
