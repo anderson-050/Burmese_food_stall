@@ -1,4 +1,4 @@
-# 🍜 Burmese Food Stall CLI Order System
+# Burmese Food Stall CLI Order System
 
 An interactive **Command-Line Interface (CLI)** application written in Python that simulates the ordering process for a Burmese food stall. This system is designed to provide a user-friendly experience that mimics real-world point-of-sale (POS) systems within a terminal.
 
@@ -8,7 +8,7 @@ An interactive **Command-Line Interface (CLI)** application written in Python th
 
 This Python CLI application efficiently handles the complexities of taking food orders, from displaying a clean menu to processing flexible user input and generating an accurate bill. It demonstrates core programming concepts like data structure management, string manipulation for flexible item matching, and output formatting. By focusing on a culturally rich menu, the project offers a unique and practical utility application.
 
-## ✨ Core Features
+## Features
 
   * **Interactive Menu Display:** The system utilizes the **`tabulate`** library to transform raw menu data into a neat, easily readable tabular format directly in the terminal.
   * **Flexible Item Matching (The Brain of the System) 🧠:** This critical feature allows the system to anticipate variations in user input. It performs **case-insensitive** matching against the:
@@ -29,7 +29,7 @@ To evolve this system into a more feature-rich application, the following extens
   * **Error Reporting:** Provide more specific feedback on invalid input (e.g., suggesting item names when input is ambiguous).
   * **Discount/Tax Logic:** Introduce variables and functions to calculate sales tax or apply promotional discounts before determining the grand total.
 
-## 🛠️ Prerequisites
+## Prerequisites
 
   * **Python 3**
   * **`tabulate`**: Used for generating formatted tables (menu and bill).
