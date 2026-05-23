@@ -1,4 +1,4 @@
-# Burmese Food Stall CLI Order System
+# Burmese Food Stall
 
 An interactive **Command-Line Interface (CLI)** application written in Python that simulates the ordering process for a Burmese food stall. This system is designed to provide an experience that mimics real-world point-of-sale (POS) systems within a terminal.
 
