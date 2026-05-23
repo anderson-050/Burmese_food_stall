@@ -11,13 +11,13 @@ This Python CLI application efficiently handles the complexities of taking food 
 ## Features
 
   * **Interactive Menu Display:** The system utilizes the **`tabulate`** library to transform raw menu data into a neat, easily readable tabular format directly in the terminal.
-  * **Flexible Item Matching:** This critical feature allows the system to anticipate variations in user input. It performs **case-insensitive** matching against the:
+  * **Flexible Item Matching:** This feature allows the system to anticipate variations in user input. It performs **case-insensitive** matching against the:
       * Full Item Name (e.g., "Laphet Thoke (Tea Leaf Salad)")
       * Main Item Name (e.g., "Laphet Thoke")
       * Parenthesis Content/Description (e.g., "Tea Leaf Salad")
   * **Quantity and Order Processing:** Users can specify quantity (e.g., `"Khao Sue, 3"`); if omitted, the system defaults the quantity to 1.
   * **Order Consolidation:** The application maintains a running order and automatically **updates the quantity** of an existing item instead of creating a new line item, ensuring the final bill is concise and accurate.
-  * **Bill Generation:** Produces a final bill with clear columns for Item, Quantity, Unit Price, and Total, leveraging the `tabulate` library for alignment.
+  * **Bill Generation:** Produces a final bill with clear columns for Item, Quantity, Unit Price, and Total, using the `tabulate` library for alignment.
 
 ### Future Enhancements
 
