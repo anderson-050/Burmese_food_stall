@@ -19,7 +19,7 @@ This Python CLI application efficiently handles the complexities of taking food 
   * **Order Consolidation:** The application maintains a running order and automatically **updates the quantity** of an existing item instead of creating a new line item, ensuring the final bill is concise and accurate.
   * **Bill Generation:** Produces a final bill with clear columns for Item, Quantity, Unit Price, and Total, using the `tabulate` library for alignment.
 
-### Future Enhancements
+## Future Enhancements
 
 To evolve this system into a more feature-rich application, the following extensions are planned:
 
